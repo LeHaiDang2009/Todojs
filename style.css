@@ -1,0 +1,92 @@
+body{
+    background: linear-gradient(to right, orange, #ab7002);
+}
+
+#container{
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#container h1{
+    transition: 1s;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-top: 10%;
+    cursor: pointer;
+}
+#container h1:hover{
+    transition: 1s;
+    font-size: 70px;
+}
+
+#container input{
+    height: 30px;
+    width: 80%;
+    font-size: 20px;
+}
+
+#container button{
+    transition: 1s;
+    color: white;
+    background-color: lightseagreen;
+    width: 37px;
+    height: 37px;
+    font-size: 20px;
+    position: absolute;
+    cursor: pointer;
+}
+#container button:hover{
+    transition: 1s;
+    background-color: aqua;
+}
+
+#itemContainer{
+    margin-left: 38%
+}
+
+.todo{
+    transition: 1s;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin: 10px;
+    font-size: 10px;
+    list-style: none;
+}
+.todo:hover{
+    transition: 1s;
+    background-color: lightgray;
+}
+
+
+.todo .todoItem{
+    flex: 1;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.completedBtn{
+    transition: 0.5s;
+    background-color: rgba(0, 255, 0, 0.933);
+    color: white;
+    border: none;
+    width: 30px;
+}
+.completedBtn:hover{
+    transition: 0.5s;
+    background-color: rgb(19, 156, 19);
+}
+
+.trashBtn{
+    background-color: red;
+    color: white;
+    border: none;
+    width: 30px;
+}
+.trashBtn:hover{
+    transition: 0.5s;
+    background-color: rgb(175, 19, 19);
+}
